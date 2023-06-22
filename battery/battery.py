@@ -1,6 +1,6 @@
 from ABC import abc, abstractmethod
 
-class Battery:
+class Battery(ABC):
 
-    def needs_service():
+    def needs_service(self):
         pass
